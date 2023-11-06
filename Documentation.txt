@@ -1,0 +1,70 @@
+
+Documentation:-
+    
+Survival Duration Calculator Documentation
+
+Introduction:-
+
+The Survival Duration Calculator is a Python-based project that allows users to calculate the duration of a person's
+life in different time units (e.g., months, weeks, days, hours, minutes, and seconds) based on their age.
+This calculator provides a modular and organized approach to age-to-duration conversion.
+
+Running the Calculator:-
+
+Open a terminal or command prompt.
+
+Navigate to the directory containing the survival_duration_calculator.py file.
+
+Run the script with the command: python survival_duration_calculator.py.
+
+Input:-
+
+Enter the age of the person when prompted.
+
+Input the desired time unit for the duration calculation (e.g., months, weeks, days, hours, minutes, seconds).
+
+Output
+
+The calculator will display the calculated duration in the selected time unit.
+
+Code Structure
+
+The Survival Duration Calculator project is organized into a Python script with a structured code base. 
+Here is an overview of the code structure:
+    
+1. SurvivalDurationCalculator class:
+
+The core logic of the calculator is encapsulated in this class.
+
+Conversion factors for different time units are defined as class attributes.
+
+Methods within the class:
+
+age_to_duration(age, time_unit): Calculates the duration based on age and the selected time unit. Returns the duration or
+    None if an invalid time unit is provided.
+
+calculate_and_display_duration(age, time_unit): Takes user input, performs the calculation, and displays the result.
+
+2.if _name_ == "_main_": block:
+
+The entry point of the program.
+
+An instance of the SurvivalDurationCalculator class is created.
+
+User input for age and the desired time unit is obtained.
+
+The calculator's calculate_and_display_duration method is called to provide the result.
+
+Example Usage
+
+Enter the age of the person: 10
+
+Enter the desired time unit (e.g., months, weeks, days, hours, minutes, seconds): weeks
+
+Output:
+The person has lived for 120 months. 
+
+Conclusion
+
+The Survival Duration Calculator is a simple and user-friendly tool for calculating the duration of a person's
+life in various time units. The modular code structure allows for easy maintenance and future enhancements.

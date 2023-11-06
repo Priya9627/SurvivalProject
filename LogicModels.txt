@@ -1,0 +1,11 @@
+Logic/Models :-
+    
+SurvivalDurationCalculator is a class that encapsulates the logic of the calculator.
+
+The conversion factors for different time units are defined within the class.
+
+The age_to_duration method calculates the duration based on the age and the selected time unit.
+
+The calculate_and_display_duration method takes user input, calculates the duration, and displays the result.
+
+The if _name_ == "_main_": block is the entry point of the program, where an instance of the SurvivalDurationCalculator class is created, and the calculation is performed.
